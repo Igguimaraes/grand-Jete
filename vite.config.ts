@@ -9,12 +9,7 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
   },
 
-  // CONFIGURAÇÃO OBRIGATÓRIA PARA GITHUB PAGES
-  base: "/grand-Jete/",
-
-  plugins: [react(), mode === "development" && componentTagger()].filter(
-    Boolean
-  ),
+  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
 
   resolve: {
     alias: {
