@@ -25,12 +25,12 @@ const Location = () => {
                 <div>
                   <h3 className="font-semibold text-lg text-foreground mb-2">Endereço</h3>
                   <p className="text-muted-foreground">
-                    Rua Example, 123 - Centro<br />
-                    Cidade - Estado<br />
-                    CEP 00000-000
+                     R. Maj. Lima, 332 - Centro <br />
+                    Sacramento - MG<br />
+                    CEP 38190-000
                   </p>
                   <p className="text-sm text-muted-foreground mt-2">
-                    <strong>Ponto de referência:</strong> Próximo ao Shopping Center
+                    <strong></strong> 
                   </p>
                 </div>
               </div>
@@ -44,8 +44,8 @@ const Location = () => {
                 <div>
                   <h3 className="font-semibold text-lg text-foreground mb-2">Horário de Funcionamento</h3>
                   <p className="text-muted-foreground">
-                    Segunda a Sexta: 8h às 21h<br />
-                    Sábado: 8h às 13h<br />
+                    Segunda a Sexta: 8h às 20h<br />
+                    Sábado: Fechado<br />
                     Domingo: Fechado
                   </p>
                 </div>
@@ -60,8 +60,8 @@ const Location = () => {
                 <div>
                   <h3 className="font-semibold text-lg text-foreground mb-2">Contato</h3>
                   <p className="text-muted-foreground">
-                    <strong>WhatsApp:</strong> (00) 00000-0000<br />
-                    <strong>Telefone:</strong> (00) 0000-0000
+                    <strong>WhatsApp:</strong> +55 34 9905-0995<br />
+                    <strong>Telefone:</strong> --- ----- ---
                   </p>
                 </div>
               </div>
@@ -84,8 +84,7 @@ const Location = () => {
             <div className="bg-accent/10 p-6 rounded-2xl border-2 border-accent/20">
               <h3 className="font-semibold text-lg text-foreground mb-2">Acessibilidade</h3>
               <p className="text-muted-foreground">
-                Nosso estúdio conta com acesso para pessoas com mobilidade reduzida e 
-                estacionamento conveniado próximo.
+                Nosso estúdio conta com acesso fácil estacionamento.
               </p>
             </div>
           </div>
@@ -94,7 +93,7 @@ const Location = () => {
           <div className="animate-fade-in">
             <div className="bg-muted/50 rounded-2xl overflow-hidden border-2 border-border shadow-lg aspect-square lg:aspect-auto lg:h-full min-h-[400px]">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0660653734724!2d-46.65433308441565!3d-23.561414684682824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1234567890123!5m2!1spt-BR!2sbr"
+                src="https://www.google.com/maps/embed?pb=!3m2!1spt-BR!2sbr!4v1765426488313!5m2!1spt-BR!2sbr!6m8!1m7!1s77CN-AvzCKPkkQjZ4OXTnQ!2m2!1d-19.86729991375243!2d-47.44277972336049!3f276.01973362367056!4f-0.32716750488832247!5f1.442874747216544" 
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -103,6 +102,9 @@ const Location = () => {
                 referrerPolicy="no-referrer-when-downgrade"
                 title="Localização Studio Grand Jeté"
               ></iframe>
+
+
+              
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 const WhatsAppButton = () => {
   const handleWhatsAppClick = () => {
     // Replace with actual WhatsApp number
-    const phoneNumber = "5534988188112"; // Format: country code + number
+    const phoneNumber = "553499050995"; // Format: country code + number
     const message = encodeURIComponent(
       "Olá! Gostaria de saber mais sobre as aulas de ballet no Studio Grand Jeté."
     );
